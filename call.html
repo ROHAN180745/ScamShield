@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>callverification</title>
+  <link rel="stylesheet" href="call.css">
+</head>
+<body>
+  <h1 class="clhead">📞verify the call</h1>
+  <h2>answer the questions below by clicking yes or no:</h2>
+   <div class="questions">
+    <div>
+    <label >1.Did the caller ask for otp ?</label>
+  <input type="radio" name="otp" value="yes">YES
+  <input type="radio" name="otp" value="no">NO
+   </div> 
+  
+  
+ <div>
+   <label>2.Did the caller ask for password or pin</label>
+  <input type="radio" name="password" value="yes">YES
+  <input type="radio" name="password" value="no">NO
+ </div>
+ <div>
+  <label >3.Did the caller ask for your bank or card details?</label>
+  <input type="radio" name="bank" value="yes">YES
+  <input type="radio" name="bank" value="no">NO
+ </div>
+ <div>
+  <label >4.Did the caller say you must act immediately?</label>
+  <input type="radio" name="act" value="yes">YES
+  <input type="radio" name="act" value="no">NO
+ </div>
+ <div>
+  <label >5.Did the caller claim to be from a bank, government office, or police?</label>
+  <input type="radio" name="claim" value="yes">YES
+  <input type="radio" name="claim" value="no">NO
+ </div>
+ <div>
+  <label >6.Did the caller ask you to send or transfer money?</label>
+  <input type="radio" name="money" value="yes">YES
+  <input type="radio" name="money" value="no">NO
+ </div>
+   </div>
+
+   <button class="clbtn"onclick="callercheck()">verify caller</button>
+   <div id="result"></div>
+   <script src="call.js"></script>
+</body>
+</html>

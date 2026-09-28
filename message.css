@@ -1,0 +1,24 @@
+#messageInput {
+    width: 100%;
+    min-height: 180px;
+    padding: 16px;
+    border: 1px solid #A9D3F5;
+    border-radius: 12px;
+    resize: vertical;
+    font-size: 16px;
+}
+.msgbtn{
+    height:35px;
+    width:75px;
+    border-radius:12px;
+    background-color: #A9D3F5;
+}
+.msgbtn:hover{
+    
+  background-color: aquamarine;
+}
+.msghead{
+    font-size: 38px;
+    color: #12304A;
+    margin-bottom: 8px;
+}

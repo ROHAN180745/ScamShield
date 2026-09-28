@@ -1,0 +1,22 @@
+#linktext{
+  width:100%;
+  min-height:150px;
+  border:solid rgb(65, 160, 207) 1px;
+  border-radius:12px;
+}
+
+.linkbtn{
+  height:35px;
+    width:75px;
+    border-radius:12px;
+    background-color: #A9D3F5;
+}
+.linkbtn:hover{
+  background-color: aquamarine;
+}
+.linkhead{
+  
+    font-size: 38px;
+    color: #12304A;
+    margin-bottom: 8px;
+}

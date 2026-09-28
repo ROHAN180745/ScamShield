@@ -1,0 +1,31 @@
+.questions{
+  height:300px;
+  width:50%;
+  background: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    border-radius: 16px;
+    padding: 25px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  padding-left:10px;
+  margin-bottom:25px;
+  }
+  
+  .clbtn{
+    height:35px;
+    width:75px;
+    border-radius:12px;
+    background-color: #A9D3F5;
+  }
+
+  .clbtn:hover{
+  background-color: aquamarine;
+}
+
+.clhead{
+  
+    font-size: 38px;
+    color: #12304A;
+    margin-bottom: 8px;
+}
